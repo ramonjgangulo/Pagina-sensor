@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .container{
+            font-size: 40px;           
+            background-color: lightgray;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 6fr;
+            width: auto;
+            height: auto;
+            
+        }
+        
+        #item1{
+            background-color: red;
+            display: grid;
+            grid-template-columns: 1fr 6fr;
+            grid-template-rows: 6fr 1fr;
+            grid-template-areas: 
+            "item1-1 item1-2"
+            "item1-3 item1-4";
+            
+
+
+        }
+                #item1-1{
+                    background-color: lightgray;
+                    grid-area: item1-1;
+
+                }
+                #item1-2{
+                    background-color: white;
+                    grid-area: item1-2;
+                }
+                #item1-3{
+                    background-color: white;
+                    grid-area: item1-3;
+                }
+                #item1-4{
+                    background-color: red;
+                    grid-area: item1-4;
+                }
+        
+        #item2{
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 6fr;
+            grid-template-rows: 6fr 1fr;
+            grid-template-areas: 
+            "item2-1 item2-2"
+            "item2-1 item2-3";
+            
+        }
+            #item2-1{
+                background-color: lightgray;
+                grid-area: item2-1;
+            }
+            #item2-2{
+                background-color: white;
+                grid-area: item2-2;
+                display: grid;
+                grid-template-rows: 1fr 3fr 2fr 2fr 1fr 3fr;
+                grid-template-columns: 1fr;
+                grid-row-gap: 50px;
+                grid-column-gap: 50px;
+                
+            }
+               
+                #item2-2-1{
+                    background-color: white;
+                    text-align: center; 
+                }
+                #item2-2-2{
+                    background-color: white;
+                }
+                #item2-2-3{
+                    background-color: yellow;
+                }
+                #item2-2-4{
+                    background-color: red;
+                }
+                #item2-2-5{
+                    background-color: white;
+                    text-align: center; 
+                    
+                }
+                #item2-2-6{
+                    background-color: white;
+                }
+            #item2-3{
+                background-color: lightgray;
+                grid-area: item2-3;
+            }
+       
+        
+    </style>    
+    <body>
+
+        <div class="container" >           
+            <div id="item1" >
+                    <div id="item1-1" ></div>
+                    <div id="item1-2" ></div>
+                    <div id="item1-3" ></div>
+                    <div id="item1-4" ></div>
+            </div>
+            <div id="item2" >
+                    <div id="item2-1" ></div>
+                    <div id="item2-2" >
+                        <div id="item2-2-1">Quienes somos</div>
+                        <div id="item2-2-2"></div>
+                        <div id="item2-2-3"></div>
+                        <div id="item2-2-4"></div>
+                        <div id="item2-2-5">Valores</div>
+                        <div id="item2-2-6"></div>
+                    </div>
+                    <div id="item2-3" ></div>
+                    
+            </div>
+            
+        </div>
+
+    </body>
+</html>
