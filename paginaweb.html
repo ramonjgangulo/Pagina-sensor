@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        *{
+            margin:0;
+        }
+        img:hover {
+            transform: scale(1.2);
+            opacity: .5;
+        }
+        .container{
+            background-color:black;
+            display: grid;
+            grid-template-rows: 100px 1000px;
+            height: 1100px;
+
+        }
+        #header{
+            background-color: whitesmoke;
+            display: grid;
+            grid-template-rows: 90% 10%; 
+            grid-template-columns: 12% 90%
+        }
+            #header1{
+                background-color: #9ea3aa;
+                
+            }
+            #header2{
+            background-color: white;
+            
+            }
+            #header3{
+            background-color: white;
+            
+            }
+            #header4{
+            background-color: red;
+            
+            }
+        #content{
+            background-color: #9ea3aa;
+            display: grid;
+            grid-template-columns: 12% 90%;
+            grid-template-rows: 94% 6%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+        }
+            #sidebar{
+                background-color: #9ea3aa;
+                grid-row-end: span 2;
+                display: grid;
+                grid-template-rows: 20% 20% 20% 20% 20%;
+                
+            }
+                #logo1{
+                    background-color: white;
+                    margin: 40px 20px 40px 20px;
+                    border-radius: 20%;
+                }
+                #logo2{
+                    background-color: white;
+                    margin: 40px 20px 40px 20px;
+                    border-radius: 20%;
+                }
+                #logo3{
+                    background-color: white;
+                    margin: 40px 20px 40px 20px;
+                    border-radius: 20%;
+                }
+                #logo4{
+                    background-color: white;
+                    margin: 40px 20px 40px 20px;
+                    border-radius: 20%;
+                }
+            #content1{
+                background-color: white;
+                display: grid;
+                grid-template-rows: 5% 26% 20% 20% 5% 26%; 
+                
+            }
+                #content2{
+                    background-color: whitesmoke;
+                    margin: 0px 60px 0px 60px;
+                    font-size: 38px;
+                    font-weight: bold;
+                    align-self: start;
+                    color: red;
+                    
+                    
+                }
+                #content3{
+                    background-color: whitesmoke;
+                    margin: 0px 60px 0px 60px;
+                }
+                #content4{
+                    background-color: #f7d411;
+                    margin: 10px 60px 10px 60px;
+                    color:white;
+                }
+                #content5{
+                    background-color: red;
+                    margin: 10px 60px 10px 60px;
+                    color:white;
+                }
+                #content6{
+                    background-color: whitesmoke;
+                    margin: 0px 60px 0px 60px;
+                    font-size: 40px;
+                    align-self: start;
+                    font-weight: bold;
+                   
+                }
+                #content7{
+                    background-color: whitesmoke;
+                    margin: 0px 60px 0px 60px;
+                    display:grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-rows: 45% 45%;
+                }
+                    #valor1{
+
+                    }
+                    #valor2{
+
+                    }
+                    #valor3{
+
+                    }
+                    #valor4{
+
+                    }
+                .box1{
+                    margin: 5px 5px 5px 0px;
+                    border-color: black;
+                    border-width: 3px;
+                    border-style: double;
+                }
+                .box2{
+                    margin: 5px 0px 5px 5px;
+                    border-color: black;
+                    border-width: 3px;
+                    border-style: double;
+                }
+            #footer{
+                background-color: #9ea3aa;
+                color: #f7d411;
+                font-size:35px;
+                align-self: start;
+                
+            
+            }
+            .setsize{
+                width: 100%;
+                height: 100%;
+                
+            }
+            .transparente{
+                margin: 0px 15px 0px 15px;
+                padding: 0;              
+            }
+            .fuente{
+                font-size: 25px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .fuenteGrande{
+                font-size: 40px;
+                font-weight: bold;
+            }
+            .fuenteMedia{
+                font-size: 35px;
+                font-weight: bold;
+            }
+            .fuenteChica{
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            
+    </style>
+    <body>
+        <div class="container ">
+            <div id="header">
+                <div id="header1"></div>
+                <div id="header2"></div>
+                <div id="header3"></div>
+                <div id="header4"></div>
+            </div>
+            <div id="content">  
+                <div id="sidebar">
+                    <div id="logo1">
+                        <img class="setsize" src="C:\Users\Proyectos 3\Desktop\Quienes Somos Pag. Web\home.png" alt="Boton de Inicio">
+                    </div>
+                    <div id="logo2">
+                        <img class="setsize" src="C:\Users\Proyectos 3\Desktop\Quienes Somos Pag. Web\quienessomoslogo.png" alt="Boton de Inicio">
+                    </div>
+                    <div id="logo3">
+                        <img class="setsize" src="C:\Users\Proyectos 3\Desktop\Quienes Somos Pag. Web\contactanos.png" alt="Boton de Inicio">
+                    </div>
+                    <div id="logo4">
+                        <img class="setsize" src="C:\Users\Proyectos 3\Desktop\Quienes Somos Pag. Web\confianennosotros.png" alt="Boton de Inicio">
+                    </div>
+                </div>
+                <div id="content1">
+                    <div id="content2">
+                        ¿QUIÉNES SOMOS?
+                    </div>
+                    <div id="content3">
+                        <p class="transparente fuente">Sensor, sistemas en Tecnologías S.A. de C.V. es una empresa mexicana especializada en
+                                implementación de tecnologías para la seguridad, información y comunicaciones.<br></br></p>
+                        <p class="transparente fuente">Acceso a la mayor calidad en innovación tecnológica con equipo propio de desarrollo y lo
+                                más importante, personal calificado y en permanente capacitación.<br></br></p>
+                        <p class="transparente fuente">Enfocados en soluciones inteligentes, adaptables, con el mejor costo-beneficio 
+                                para nuestros clientes.<br></br></p>
+                    </div>
+                    <div id="content4">
+                            <p class="transparente fuenteGrande">MISIÓN</p> 
+                            <p class="transparente fuente">Ofrecer soluciones integrales que brinden seguridad, confianza y 
+                                    optimicen procesos tanto en el hogar como en la empresa.</p>
+                    </div>
+                    <div id="content5">
+                            <p class="transparente fuenteGrande">VISIÓN</p> 
+                            <p class="transparente fuente">Ser la empresa líder en la implementación de tecnología en el 
+                                    mercado de la seguridad electrónica y comunicaciones.</p>
+                    </div>
+                    <div id="content6">
+                       <p class="transparente" align="center">VALORES</p>
+                    </div>
+                    <div id="content7">
+                        <div id="valor1" class="box1" >
+                            <p class="transparente fuenteMedia">Honestidad</p>
+                            <p class="transparente fuenteChica">Describir puntualmente los alcances y limitaciones de nuestras soluciones.</p>
+                        </div>
+                        <div id="valor2" class="box2">
+                                <p class="transparente fuenteMedia">Respeto</p>
+                                <p class="transparente fuenteChica">En el trato con nuestros clientes y hacia compañeros y directivos de la empresa.</p>
+                        </div>
+                        <div id="valor3" class="box1">
+                                <p class="transparente fuenteMedia">Responsabilidad</p>
+                                <p class="transparente fuenteChica">Cumplir estrictamente con nuestro compromiso de calidad, tiempo y garantía.</p>
+                        </div>
+                        <div id="valor4" class="box2">
+                                <p class="transparente fuenteMedia">Confidencialidad</p>
+                                <p class="transparente fuenteChica">Cuidadoso trato en el uso de información.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                        <p class="transparente" align="center"> WWW.SENSORMEXICO.COM</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
