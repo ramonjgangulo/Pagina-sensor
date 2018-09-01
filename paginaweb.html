@@ -6,13 +6,15 @@
         }
         img:hover {
             transform: scale(1.2);
-            opacity: .5;
+            
         }
+
         .container{
             background-color:black;
             display: grid;
             grid-template-rows: 100px 1000px;
-            height: 1100px;
+            height: 1100;
+            
 
         }
         #header{
@@ -26,11 +28,11 @@
                 
             }
             #header2{
-            background-color: white;
+            background-color: whitesmoke;
             
             }
             #header3{
-            background-color: white;
+            background-color: whitesmoke;
             
             }
             #header4{
@@ -43,37 +45,42 @@
             grid-template-columns: 12% 90%;
             grid-template-rows: 94% 6%;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: 0;
             
         }
             #sidebar{
                 background-color: #9ea3aa;
                 grid-row-end: span 2;
                 display: grid;
-                grid-template-rows: 20% 20% 20% 20% 20%;
+                grid-template-rows: 20% 20% 20% 20% 20% ;
                 
             }
                 #logo1{
                     background-color: white;
                     margin: 40px 20px 40px 20px;
                     border-radius: 20%;
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
                 }
                 #logo2{
                     background-color: white;
                     margin: 40px 20px 40px 20px;
                     border-radius: 20%;
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
                 }
                 #logo3{
                     background-color: white;
                     margin: 40px 20px 40px 20px;
                     border-radius: 20%;
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
                 }
                 #logo4{
                     background-color: white;
                     margin: 40px 20px 40px 20px;
                     border-radius: 20%;
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
                 }
             #content1{
-                background-color: white;
+                background-color: whitesmoke;
                 display: grid;
                 grid-template-rows: 5% 26% 20% 20% 5% 26%; 
                 
@@ -96,11 +103,13 @@
                     background-color: #f7d411;
                     margin: 10px 60px 10px 60px;
                     color:white;
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
                 }
                 #content5{
                     background-color: red;
                     margin: 10px 60px 10px 60px;
                     color:white;
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
                 }
                 #content6{
                     background-color: whitesmoke;
@@ -117,35 +126,28 @@
                     grid-template-columns: 50% 50%;
                     grid-template-rows: 45% 45%;
                 }
-                    #valor1{
-
-                    }
-                    #valor2{
-
-                    }
-                    #valor3{
-
-                    }
-                    #valor4{
-
-                    }
+                  
                 .box1{
                     margin: 5px 5px 5px 0px;
                     border-color: black;
                     border-width: 3px;
                     border-style: double;
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
                 }
                 .box2{
                     margin: 5px 0px 5px 5px;
                     border-color: black;
                     border-width: 3px;
                     border-style: double;
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
                 }
             #footer{
                 background-color: #9ea3aa;
                 color: #f7d411;
                 font-size:35px;
                 align-self: start;
+                margin-right: 0 
+                
                 
             
             }
@@ -174,13 +176,23 @@
                 font-size: 20px;
                 font-family: Georgia, 'Times New Roman', Times, serif;
             }
+            .setsizeBanner{
+               height: 90px;
+               widows: 450px;
+            }
+            #banner:hover{
+                transform: scale(1);
+                opacity: 1;
+            }
             
     </style>
     <body>
         <div class="container ">
             <div id="header">
                 <div id="header1"></div>
-                <div id="header2"></div>
+                <div id="header2">
+                    <p align="end"><img id="banner"  class="setsizeBanner" src="C:\Users\Proyectos 3\Desktop\Quienes Somos Pag. Web\SENSOR.png" alt="Logo Sensor"  ></p>
+                </div>
                 <div id="header3"></div>
                 <div id="header4"></div>
             </div>
